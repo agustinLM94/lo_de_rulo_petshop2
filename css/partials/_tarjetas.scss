@@ -1,0 +1,60 @@
+.tarjetas{
+    background-image: url(../images/fondo_patitas_green.jpg);
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: wheat;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    .tarjeta{
+        
+        background-color: #0f0f0f;
+        border-radius: 30px;
+        overflow: hidden;
+        gap: 20px;
+        font-family:'Quicksand';
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        
+      }
+    .tarjeta:hover{
+      transform: scale(1.1) translateY(-48px);
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      transition-delay: .5s;
+    }  
+      .imagen_shop{
+        color: wheat;
+        width: 100%;
+        background-color: #000000;
+        font-weight:600;
+      }
+
+      .informacion_tarjeta{
+        
+        padding: 0 20px 20px 20px;}
+
+        .tarjeta_boton{
+          font-family: $font_quicksand;
+          color: wheat;
+          background-color: #212529;
+          border: 5;
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 4px;
+          cursor: pointer;
+          font-size: 18px;
+          margin-left: 5px;
+          transform: translate(40px);
+
+          
+        }
+     
+ 
+    
+  }

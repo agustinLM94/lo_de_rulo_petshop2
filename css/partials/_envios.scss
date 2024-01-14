@@ -1,0 +1,21 @@
+.envios {
+    background-image: $background_pages;
+
+    .titulo_envios{ 
+        color: $color_texto;
+        font-size: 4rem;
+      }
+    
+    .texto_envios{
+        color: $color_texto;
+        font-size: 2rem;
+      }
+
+    .mapa{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  }
+ 

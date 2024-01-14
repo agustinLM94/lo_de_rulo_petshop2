@@ -1,0 +1,39 @@
+.hero_inicio {
+    background-image: $background_pages;
+    display: flex;
+
+    .hero_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3rem;}
+
+        .hero_text h4 {
+            color: $color_texto;
+            font-family: 'Permanent Marker', cursive;
+            font-family: $font_quicksand;
+            font-weight: 1000;
+            font-size: 4rem;
+         }
+        
+         .hero_text h2 {
+            color: $color_texto;
+            font-family: 'Permanent Marker', cursive;
+            font-family: $font_quicksand;
+            font-weight: 1000;
+            font-size: 6rem;
+            margin-bottom: 1rem;
+            
+         }
+
+    
+    .hero_parrafo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $color_texto;
+            
+         }
+        
+    
+  }

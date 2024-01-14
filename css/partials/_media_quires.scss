@@ -1,0 +1,54 @@
+@media screen and (max-width:800px){
+
+    .hero_inicio{
+       height: 100vh;
+       display: flex;
+       flex-direction: column;
+    }
+ 
+    .hero_img{
+       display: flex;
+    }
+ 
+    .tarjetas {
+       display: flex;
+       flex-direction: column; }
+ 
+  }
+ 
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container_img{
+    width: 95%;
+    grid-template-columns: repeat (2,1fr);
+    grid-gap: 10px;
+    grid-template-rows: 200px
+  }
+ 
+  .container_img .box_img:nth-child(1){
+    grid-template-columns: span 1;
+  }
+
+  @media  screen and (max-width:500px){
+    .tarjetas {
+       display: flex;
+       flex-direction: column; }
+  }
+ 
+    .footer{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+    .container_img{
+       width: 90%;
+       grid-template-columns: repeat(1,1fr);
+ 
+    }
+ 
+    .container_img .box_img img{
+       height: 200px;
+    }
